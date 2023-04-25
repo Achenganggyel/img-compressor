@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 17,
+            "activePatchIndex": 21,
             "patches": [
                 {
                     "date": 1682425550373,
@@ -76,6 +76,22 @@
                 {
                     "date": 1682427568817,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,6 @@\n \r\n ## 4.25\r\n Alla（赵）\r\n &emsp; 1）写了基本框架\r\n-&emsp; 2）写出软件简单界面\r\n-&emsp; 3）按钮点击、预览图功能正常\r\n+&emsp; 2）设计了软件基本界面\r\n \r\n"
+                },
+                {
+                    "date": 1682432544376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,4 +4,5 @@\n Alla（赵）\r\n &emsp; 1）写了基本框架\r\n &emsp; 2）设计了软件基本界面\r\n \r\n+22:22\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682432549778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n 不知道需不需要，先放上来\r\n \r\n ## 4.25\r\n-Alla（赵）\r\n+20:30 Alla（赵）\r\n &emsp; 1）写了基本框架\r\n &emsp; 2）设计了软件基本界面\r\n \r\n 22:22\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682432556001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n &emsp; 1）写了基本框架\r\n &emsp; 2）设计了软件基本界面\r\n \r\n 22:22 Alla\r\n-&emsp; 1\n\\ No newline at end of file\n+&emsp; 1)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682432802949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,5 @@\n &emsp; 1）写了基本框架\r\n &emsp; 2）设计了软件基本界面\r\n \r\n 22:22 Alla\r\n-&emsp; 1）修改了框架：删除了GetPic类，并扩充了Process类；修改了类的注释\n\\ No newline at end of file\n+&emsp; 1）修改了框架：删除了GetPic类，并扩充了Process类；修改了类的注释\r\n"
                 }
             ],
             "date": 1682425550373,

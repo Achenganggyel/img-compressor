@@ -3,53 +3,69 @@
 @Authors: 
     Alla, xx, xx, xx
 @class
-    GetPic 获取图片
     CompressPic 压缩图片的过程
-    Process 通用过程：保存图片和预览
+    Process 图像处理过程：将图片和np.ndarray间转换，保存图片和预览
 
 !!Attention!!
 如果修改了函数的输入输出，请在注释中写明
 因为没写过这个软件的完整版，多有疏漏，请多包涵qwq
 '''
-
 import sys
 import numpy as np
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 
 '''
-获取图像类
-@params 
-    input_path(string) 输入图片存放的位置
-@return
-    input_pic(np.ndarray类型) 输入的512*512灰度图像
-    注：使用uint8类型存储灰度图像或RGB图像时，
-       每个像素元素占用8位（一个字节）空间。
-       如果存储更高精度的图像，可选float32等类型。
-'''
-class GetPic():
-    def __init__(self, input_path='') -> np.ndarray:
-        input_pic = None
-        return input_pic
-
-'''
 图像压缩类
 @params
-    input_pic(np.ndarray类型) 输入的512*512灰度图像
+    in_pic_array(np.ndarray类型) 输入的512*512灰度图像转为的数组
 @return
     compress_rate 压缩效率
     running_rate 执行效率
-    output_pic(np.ndarray类型)
+    out_pic_array(np.ndarray类型) 压缩后的图像数组
 '''
 class CompressPic():
     def __init__(self, input_pic=None) -> None:
         pass
 
 '''
-通用过程类
-包括保存图片和图片预览
+图片处理类
+包括图片和像素的转换，保存图片和图片预览
 '''
 class Process():
     def __init__(self) -> None:
+        pass
+
+    '''
+    加载图片：忘了用什么库
+    @params
+        in_pic_path(string) 输入图片的路径
+    @return
+        in_pic() 输入图片的加载结果
+    '''
+    def loadimg(self):
+        pass
+
+    '''
+    将512*512（灰度）图像转为np.ndarray格式   
+    @params
+        in_pic() 输入图片的加载结果
+    @return
+        in_pic_array(np.ndarray) 图片转为的数组
+        注：使用uint8类型存储灰度图像或RGB图像时，
+        每个像素元素占用8位（一个字节）空间。
+        如果存储更高精度的图像，可选float32等类型。
+    '''
+    def picToArray(self, in_pic=None) -> np.ndarray:
+        pass
+
+    '''
+    将np.ndarray转为512*512图像
+    @params
+        out_pic_array(np.ndarray) 
+    @return
+        out_pic() 输出图片的加载结果
+    '''
+    def ArrayToPic(self):
         pass
 
     '''
@@ -64,7 +80,7 @@ class Process():
 
     '''
     预览图片    
-    #TODO：写界面和预览的讨论下怎么约束哈
+    #TODO：写界面和预览的讨论下怎么约束哈，如果能直接展示图片就不用showPic
     '''
     def showPic(self) -> None:
         pass

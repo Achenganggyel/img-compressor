@@ -1,0 +1,86 @@
+{
+    "sourceFile": "运行须知.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1682423815199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1682423820990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n &emsp; `python -m pip install --upgrade pip`\r\n &emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n \r\n ## 2. 本项目框架\r\n-通过\r\n+通过`python `\r\n \r\n ## 3. 改错记录\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1682423826271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n &emsp; `python -m pip install --upgrade pip`\r\n &emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n \r\n ## 2. 本项目框架\r\n-通过`python `\r\n+通过`python program.`\r\n \r\n ## 3. 改错记录\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1682423832388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n &emsp; `python -m pip install --upgrade pip`\r\n &emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n \r\n ## 2. 本项目框架\r\n-通过`python program.`\r\n+通过`python program.py`运行本项目\r\n \r\n ## 3. 改错记录\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1682423842194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,8 @@\n \r\n ## 2. 本项目框架\r\n 通过`python program.py`运行本项目\r\n \r\n-## 3. 改错记录\r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682423850829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n &emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n \r\n ## 2. 本项目框架\r\n 通过`python program.py`运行本项目\r\n+项目框架：略\r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424322927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,9 @@\n ## 2. 本项目框架\r\n 通过`python program.py`运行本项目\r\n 项目框架：略\r\n \r\n+\r\n+\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424359749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,12 @@\n &emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n \r\n ## 2. 本项目框架\r\n 通过`python program.py`运行本项目\r\n-项目框架：略\r\n+项目框架：\r\n+ GetPic 获取图片\r\n+    CompressPic 压缩图片的过程\r\n+    Process 通用过程：保存图片和预览\r\n \r\n \r\n \r\n ## 4. 参考\r\n"
+                },
+                {
+                    "date": 1682424365870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \r\n ## 2. 本项目框架\r\n 通过`python program.py`运行本项目\r\n 项目框架：\r\n- GetPic 获取图片\r\n-    CompressPic 压缩图片的过程\r\n-    Process 通用过程：保存图片和预览\r\n+GetPic 获取图片\r\n+CompressPic 压缩图片的过程\r\n+Process 通用过程：保存图片和预览\r\n \r\n \r\n \r\n ## 4. 参考\r\n"
+                },
+                {
+                    "date": 1682424378680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n 项目框架：\r\n GetPic 获取图片\r\n CompressPic 压缩图片的过程\r\n Process 通用过程：保存图片和预览\r\n+（暂时就不写太多了，可以看每个类）\r\n \r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424393059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n 项目框架：\r\n GetPic 获取图片\r\n CompressPic 压缩图片的过程\r\n Process 通用过程：保存图片和预览\r\n-（暂时就不写太多了，可以看每个类）\r\n+（暂时就不写太多了，可以看每个类的）\r\n \r\n \r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n"
+                },
+                {
+                    "date": 1682424404576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n 项目框架：\r\n GetPic 获取图片\r\n CompressPic 压缩图片的过程\r\n Process 通用过程：保存图片和预览\r\n-（暂时就不写太多了，可以看每个类的）\r\n+（暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的）\r\n \r\n \r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n"
+                },
+                {
+                    "date": 1682424414079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,11 @@\n 项目框架：\r\n GetPic 获取图片\r\n CompressPic 压缩图片的过程\r\n Process 通用过程：保存图片和预览\r\n-（暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的）\r\n+（暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的逻辑）\r\n \r\n+## 3. \r\n \r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424424061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n CompressPic 压缩图片的过程\r\n Process 通用过程：保存图片和预览\r\n （暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的逻辑）\r\n \r\n-## 3. \r\n+## 3. 有空再做的选做\r\n \r\n+\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424432553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n Process 通用过程：保存图片和预览\r\n （暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的逻辑）\r\n \r\n ## 3. 有空再做的选做\r\n+&emsp; 1\r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424438471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n Process 通用过程：保存图片和预览\r\n （暂时就不写太多了，可以看每个类的简陋注释，和def __main__函数的逻辑）\r\n \r\n ## 3. 有空再做的选做\r\n-&emsp; 1\r\n+&emsp; 1）压缩\r\n \r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424451713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \r\n ## 3. 有空再做的选做\r\n &emsp; 1）压缩彩色图像\r\n &emsp; 2）压缩普通文件\r\n+&\r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                },
+                {
+                    "date": 1682424466857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n ## 3. 有空再做的选做\r\n &emsp; 1）压缩彩色图像\r\n &emsp; 2）压缩普通文件\r\n &emsp; 3）批量选择待压缩图片\r\n+&\r\n \r\n-\r\n ## 4. 参考\r\n &emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n &emsp; [2] [???](???)\r\n"
+                }
+            ],
+            "date": 1682423815199,
+            "name": "Commit-0",
+            "content": "## 1. pip更新和PyQt5下载\r\n&emsp; PyQt5工具可以使通过利用python快速实现简单的界面开发，包括界面设计、布局管理以及业务逻辑实现。\r\n&emsp; 如果需要pip更新到最新版的话，使用如下命令，\r\n&emsp; `python -m pip install --upgrade pip`\r\n&emsp; 同时，PyQt5可以使用pip安装，命令为` pip install PyQt5 -i https://pypi.douban.com/simple`（使用豆瓣更快，同时之前python的出现了找不到模块的错误qwq）\r\n\r\n## 2. 本项目框架\r\n通过\r\n\r\n## 3. 改错记录\r\n\r\n\r\n## 4. 参考\r\n&emsp; [1] [windows安装PyQt5报错及解决办法](https://blog.csdn.net/qq_48309851/article/details/124819137)\r\n&emsp; [2] [???](???)\r\n"
+        }
+    ]
+}

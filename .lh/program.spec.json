@@ -1,0 +1,42 @@
+{
+    "sourceFile": "program.spec",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1684545753223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684545759085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n a = Analysis(\r\n     ['program.py'],\r\n     pathex=[],\r\n     binaries=[],\r\n-    datas=[()],\r\n+    datas=[('d_core.dll')],\r\n     hiddenimports=[],\r\n     hookspath=[],\r\n     hooksconfig={},\r\n     runtime_hooks=[],\r\n"
+                },
+                {
+                    "date": 1684545765081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n a = Analysis(\r\n     ['program.py'],\r\n     pathex=[],\r\n     binaries=[],\r\n-    datas=[('d_core.dll')],\r\n+    datas=[('d_core.dll','')],\r\n     hiddenimports=[],\r\n     hookspath=[],\r\n     hooksconfig={},\r\n     runtime_hooks=[],\r\n"
+                },
+                {
+                    "date": 1684546611165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,44 @@\n+# -*- mode: python ; coding: utf-8 -*-\r\n+\r\n+\r\n+block_cipher = None\r\n+\r\n+\r\n+a = Analysis(\r\n+    ['program.py'],\r\n+    pathex=[],\r\n+    binaries=[],\r\n+    datas=[('d_core.dll','.')],\r\n+    hiddenimports=[],\r\n+    hookspath=[],\r\n+    hooksconfig={},\r\n+    runtime_hooks=[],\r\n+    excludes=[],\r\n+    win_no_prefer_redirects=False,\r\n+    win_private_assemblies=False,\r\n+    cipher=block_cipher,\r\n+    noarchive=False,\r\n+)\r\n+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)\r\n+\r\n+exe = EXE(\r\n+    pyz,\r\n+    a.scripts,\r\n+    a.binaries,\r\n+    a.zipfiles,\r\n+    a.datas,\r\n+    [],\r\n+    name='program',\r\n+    debug=False,\r\n+    bootloader_ignore_signals=False,\r\n+    strip=False,\r\n+    upx=True,\r\n+    upx_exclude=[],\r\n+    runtime_tmpdir=None,\r\n+    console=True,\r\n+    disable_windowed_traceback=False,\r\n+    argv_emulation=False,\r\n+    target_arch=None,\r\n+    codesign_identity=None,\r\n+    entitlements_file=None,\r\n+)\r\n"
+                },
+                {
+                    "date": 1684547213225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,48 +41,4 @@\n     target_arch=None,\r\n     codesign_identity=None,\r\n     entitlements_file=None,\r\n )\r\n-# -*- mode: python ; coding: utf-8 -*-\r\n-\r\n-\r\n-block_cipher = None\r\n-\r\n-\r\n-a = Analysis(\r\n-    ['program.py'],\r\n-    pathex=[],\r\n-    binaries=[],\r\n-    datas=[('d_core.dll','')],\r\n-    hiddenimports=[],\r\n-    hookspath=[],\r\n-    hooksconfig={},\r\n-    runtime_hooks=[],\r\n-    excludes=[],\r\n-    win_no_prefer_redirects=False,\r\n-    win_private_assemblies=False,\r\n-    cipher=block_cipher,\r\n-    noarchive=False,\r\n-)\r\n-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)\r\n-\r\n-exe = EXE(\r\n-    pyz,\r\n-    a.scripts,\r\n-    a.binaries,\r\n-    a.zipfiles,\r\n-    a.datas,\r\n-    [],\r\n-    name='program',\r\n-    debug=False,\r\n-    bootloader_ignore_signals=False,\r\n-    strip=False,\r\n-    upx=True,\r\n-    upx_exclude=[],\r\n-    runtime_tmpdir=None,\r\n-    console=True,\r\n-    disable_windowed_traceback=False,\r\n-    argv_emulation=False,\r\n-    target_arch=None,\r\n-    codesign_identity=None,\r\n-    entitlements_file=None,\r\n-)\r\n"
+                },
+                {
+                    "date": 1684579751873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,5 +40,5 @@\n     argv_emulation=False,\r\n     target_arch=None,\r\n     codesign_identity=None,\r\n     entitlements_file=None,\r\n-)\r\n+)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684580588500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n a = Analysis(\r\n     ['program.py'],\r\n     pathex=[],\r\n     binaries=[],\r\n-    datas=[('d_core.dll','.')],\r\n+    datas=[()],\r\n     hiddenimports=[],\r\n     hookspath=[],\r\n     hooksconfig={},\r\n     runtime_hooks=[],\r\n"
+                }
+            ],
+            "date": 1684545753223,
+            "name": "Commit-0",
+            "content": "# -*- mode: python ; coding: utf-8 -*-\r\n\r\n\r\nblock_cipher = None\r\n\r\n\r\na = Analysis(\r\n    ['program.py'],\r\n    pathex=[],\r\n    binaries=[],\r\n    datas=[()],\r\n    hiddenimports=[],\r\n    hookspath=[],\r\n    hooksconfig={},\r\n    runtime_hooks=[],\r\n    excludes=[],\r\n    win_no_prefer_redirects=False,\r\n    win_private_assemblies=False,\r\n    cipher=block_cipher,\r\n    noarchive=False,\r\n)\r\npyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)\r\n\r\nexe = EXE(\r\n    pyz,\r\n    a.scripts,\r\n    a.binaries,\r\n    a.zipfiles,\r\n    a.datas,\r\n    [],\r\n    name='program',\r\n    debug=False,\r\n    bootloader_ignore_signals=False,\r\n    strip=False,\r\n    upx=True,\r\n    upx_exclude=[],\r\n    runtime_tmpdir=None,\r\n    console=True,\r\n    disable_windowed_traceback=False,\r\n    argv_emulation=False,\r\n    target_arch=None,\r\n    codesign_identity=None,\r\n    entitlements_file=None,\r\n)\r\n"
+        }
+    ]
+}

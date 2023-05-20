@@ -1,0 +1,42 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1684516676940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684516683752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,21 @@\n # img-compressor\n use dynamic-gramming to compress images\n \n+# 1. 项目框架\n+## 2. 本项目框架\n+通过`python program.py`运行本项目\n+项目框架：\n+assets/ 软件中的按钮装饰等素材\n+&emsp; \n+materials/ 材料\n+&emsp; 页面设计.png 简陋的页面设计\n+&emsp; test_pyqt.py 线程的使用\n+&emsp; tmp_color.py 开始时加入了彩色图像压缩的文件\n+result.txt 计算的结果txt\n+dynamic_core.cpp cpp文件\n+dynamic_core.exe cpp进行单元测试的文件\n+d_core.dll cpp生成的动态链接库\n+program.ui ？？\n+program.py 主程序文件\n+&emsp; GetPic 获取图片\n+&emsp; CompressPic 压缩图片的过程\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684516689778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # img-compressor\n use dynamic-gramming to compress images\n \n # 1. 项目框架\n-## 2. 本项目框架\n+## 1. 本项目框架\n 通过`python program.py`运行本项目\n 项目框架：\n assets/ 软件中的按钮装饰等素材\n &emsp; \n"
+                },
+                {
+                    "date": 1684516695813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n # img-compressor\n use dynamic-gramming to compress images\n \n-# 1. 项目框架\n-## 1. 本项目框架\n+## 1. 项目框架\n 通过`python program.py`运行本项目\n 项目框架：\n assets/ 软件中的按钮装饰等素材\n &emsp; \n"
+                },
+                {
+                    "date": 1684516701381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,8 @@\n dynamic_core.cpp cpp文件\n dynamic_core.exe cpp进行单元测试的文件\n d_core.dll cpp生成的动态链接库\n program.ui ？？\n+Re\n program.py 主程序文件\n &emsp; GetPic 获取图片\n &emsp; CompressPic 压缩图片的过程\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684516707494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n dynamic_core.cpp cpp文件\n dynamic_core.exe cpp进行单元测试的文件\n d_core.dll cpp生成的动态链接库\n program.ui ？？\n-README.md j\n+README.md ji\n program.py 主程序文件\n &emsp; GetPic 获取图片\n &emsp; CompressPic 压缩图片的过程\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684516719010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n dynamic_core.exe cpp进行单元测试的文件\n d_core.dll cpp生成的动态链接库\n program.ui ？？\n README.md 简单的程序须知\n-\n+r\n program.py 主程序文件\n &emsp; GetPic 获取图片\n &emsp; CompressPic 压缩图片的过程\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1684516676940,
+            "name": "Commit-0",
+            "content": "# img-compressor\nuse dynamic-gramming to compress images\n\n"
+        }
+    ]
+}

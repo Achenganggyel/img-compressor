@@ -3,11 +3,16 @@
     "activeCommit": 0,
     "commits": [
         {
+<<<<<<< HEAD
             "activePatchIndex": 4,
+=======
+            "activePatchIndex": 0,
+>>>>>>> 992e0e6ca828a7234b493cc368a7f92c0ecf43ef
             "patches": [
                 {
                     "date": 1682425488723,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+<<<<<<< HEAD
                 },
                 {
                     "date": 1684544448398,
@@ -24,6 +29,8 @@
                 {
                     "date": 1684544585915,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n sys==0.26.0 \r\n PyQt5==5.15.9\r\n numpy==1.24.2\r\n opencv-python==4.5.4.58\r\n+pywin32-ctypes \n\\ No newline at end of file\n"
+=======
+>>>>>>> 992e0e6ca828a7234b493cc368a7f92c0ecf43ef
                 }
             ],
             "date": 1682425488723,

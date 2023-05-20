@@ -54,15 +54,19 @@ program.py 主程序文件
 
 &emsp; CompressPic 压缩图片的过程-动态规划算法
 
+<br>
 
 ### 2. 运行方式
 #### 2.1 在电脑上运行program.py
-step 1. 使用 `pip install -r requirements.txt`下载所有依赖
-step 2. 使用`python program.py`运行主程序，稍等一会就能看到如图的界面；不响应的话多按几次回车<br>
+**step 1.** 使用 `pip install -r requirements.txt`下载所有依赖<br>
+**step 2.** 使用`python program.py`运行主程序，稍等一会就能看到如图的界面；不响应的话多按几次回车<br>
 <img src="./screenshots/input.png" style="height: 400px; display: block; margin: 0 auto;"><br>
-step 3. 点击“开始压缩”，选择图片
-<img src="./screenshots/choosePic.png" style="height: 340px; display: block; margin: 0 auto;">
-step 4. 查看结果<br>
+
+**step 3.** 点击“开始压缩”，选择图片
+<img src="./screenshots/choosePic.png" style="height: 340px; display: block; margin: 0 auto;"><br>
+
+**step 4.** 查看结果<br>
+
 页面上的显示<br>
 <img src="./screenshots/output.png" style="height: 400px; display: block; margin: 0 auto;"><br>
 结果result.txt<br>

@@ -8,51 +8,29 @@ use dynamic-gramming to compress images
 
 项目框架：
 
-assets/ 软件中的装饰等素材，没用
-
-build/ 使用`pyinstaller`打包后会在源目录中生成build,dist两个文件夹和一个.spec程序
-
-dist/ 静态程序文件夹，打包后的产物，比如这里有tmp_color.exe和pragram.exe
-
-tmp_color.spec tmp_color程序的配置规范文件
-
-program.spec program程序的配置规范文件
-
-materials/ 材料
-
-&emsp; 页面设计.png 简陋的页面设计
-
-&emsp; 设计图2.0.png 简单的页面设计
-
-&emsp; test_pyqt.py 线程的使用
-
-&emsp; tmp_color.py 开始时加入了彩色图像压缩的文件
-
-&emsp; tmp_alogrithm.py 开始时使用了动态规划的文件
-
-result.txt 动态规划计算的结果
-
-README.md 简单的程序须知
-
-运行须知.md 简单的告知
-
-更新日志.md 软件开发过程中的更新（但没怎么写就是
-
-requirements.txt python中的依赖
-
-dynamic_core.cpp cpp文件
-
-dynamic_core.exe cpp进行单元测试的文件
-
-d_core.dll cpp生成的动态链接库
-
-program.ui PyQt库自动生成的.ui文件
-
-program.py 主程序文件
-
-&emsp; UI_MainWindow UI设计类
-
-&emsp; CompressPic 压缩图片的过程-动态规划算法
+assets/ 软件中的装饰等素材，没用<br>
+build/ 使用`pyinstaller`打包后会在源目录中生成build,dist两个文件夹和一个.spec程序<br>
+dist/ 静态程序文件夹，打包后的产物，比如这里有tmp_color.exe和pragram.exe<br>
+tmp_color.spec tmp_color程序的配置规范文件<br>
+program.spec program程序的配置规范文件<br>
+materials/ 材料<br>
+&emsp; 页面设计.png 简陋的页面设计<br>
+&emsp; 设计图2.0.png 简单的页面设计<br>
+&emsp; test_pyqt.py 线程的使用<br>
+&emsp; tmp_color.py 开始时加入了彩色图像压缩的文件<br>
+&emsp; tmp_alogrithm.py 开始时使用了动态规划的文件<br>
+result.txt 动态规划计算的结果<br>
+README.md 简单的程序须知<br>
+运行须知.md 简单的告知<br>
+更新日志.md 软件开发过程中的更新（没怎么写<br>
+requirements.txt python中的依赖<br>
+dynamic_core.cpp cpp文件<br>
+dynamic_core.exe cpp进行单元测试的文件<br>
+d_core.dll cpp生成的动态链接库<br>
+program.ui PyQt库自动生成的.ui文件<br>
+program.py 主程序文件<br>
+&emsp; UI_MainWindow UI设计类<br>
+&emsp; CompressPic 压缩图片的过程-动态规划算法<br>
 
 <br>
 
@@ -60,10 +38,10 @@ program.py 主程序文件
 #### 2.1 在电脑上运行program.py
 **step 1.** 使用 `pip install -r requirements.txt`下载所有依赖<br>
 **step 2.** 使用`python program.py`运行主程序，稍等一会就能看到如图的界面；不响应的话多按几次回车<br>
-<img src="./screenshots/input.png" style="height: 400px; display: block; margin: 0 auto;"><br>
+<img src="./screenshots/input.png" style="height: 400px; display: block; margin: 0 auto;">
 
-**step 3.** 点击“开始压缩”，选择图片
-<img src="./screenshots/choosePic.png" style="height: 340px; display: block; margin: 0 auto;"><br>
+**step 3.** 点击“开始压缩”，选择图片<br>
+<img src="./screenshots/choosePic.png" style="height: 340px; display: block; margin: 0 auto;">
 
 **step 4.** 查看结果<br>
 

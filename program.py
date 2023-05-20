@@ -4,7 +4,7 @@
     Alla, ytding, yxDu, hWu, yjMa
 @class
     CompressPic 压缩图片的过程
-    Process 图像处理过程：将图片和np.ndarray间转换，保存图片和预览
+    UI_MainWindow 界面
 
 !!Attention!!
 如果修改了函数的输入输出，请在注释中写明
